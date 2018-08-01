@@ -6,7 +6,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014 - 2018, British Columbia Institute of Technology
+ * Copyright (c) 2014 - 2017, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -29,7 +29,7 @@
  * @package	CodeIgniter
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2018, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2014 - 2017, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	https://codeigniter.com
  * @since	Version 1.0.0
@@ -127,7 +127,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery blur event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -143,7 +143,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery change event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -159,7 +159,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery click event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @param	bool	whether or not to return false
 	 * @return	string
@@ -183,7 +183,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery dblclick event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -199,7 +199,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery error event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -215,7 +215,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery focus event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -252,7 +252,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery keydown event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -268,7 +268,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery keydown event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -284,7 +284,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery load event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -300,7 +300,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery mousedown event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -316,7 +316,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery mouseout event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -332,7 +332,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery mouseover event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -348,7 +348,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery mouseup event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -387,7 +387,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery resize event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -403,7 +403,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery scroll event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -419,7 +419,7 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Outputs a jQuery unload event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -720,7 +720,7 @@ class CI_Jquery extends CI_Javascript {
 	 * An Ajax call that populates the designated DOM node with
 	 * returned content
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	the controller to run the call against
 	 * @param	string	optional parameters
 	 * @return	string
@@ -924,9 +924,9 @@ class CI_Jquery extends CI_Javascript {
 	 *
 	 * Constructs the syntax for an event, and adds to into the array for compilation
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
-	 * @param	string	The event to pass
+	 * @param	string	byte_it to pass
 	 * @return	string
 	 */
 	protected function _add_event($element, $js, $event)

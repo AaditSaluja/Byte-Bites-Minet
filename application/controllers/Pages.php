@@ -10,9 +10,8 @@ class Pages extends CI_Controller
 	}
 	public function view(...$page)
 	{
-		print_r($page);
 		$page = implode($page, '/');
-		$page = ((empty($page))?("index"):($page));
+		$page = ((empty($page))?("home"):($page));
 		if (!file_exists(APPPATH . "views/pages/{$page}.php"))
 		{
 			show_404();
@@ -24,7 +23,7 @@ class Pages extends CI_Controller
 			{
 				$data = parse_ini_file($ini_file);
 			}
-			$data['title'] = ((!isset($data['title']))?(ucfirst($page)):($data['title'])) . " | Some Name";
+			$data['title'] = ((!isset($data['title']))?(ucfirst($page)):($data['title'])) . " | ChoreX";
 			$data['theme'] = (!isset($data['theme']))?("default"):($data['theme']);
 
 			$data['page'] = $page;
@@ -32,22 +31,15 @@ class Pages extends CI_Controller
 			$data['special_css'] = "";
 			$data['csrf'] = ['name'=>$this->security->get_csrf_token_name(), 'hash'=>$this->security->get_csrf_hash()];
 
-			$data["logged_in"] = false;
-
-			$data['year'] = get_date();
-
 			$this -> load -> view("html/header", $data);
 			if (file_exists(APPPATH . "views/themes/{$data['theme']}/header.php"))
 			{
 				$this -> load -> view("themes/{$data['theme']}/header", $data);				
 			}
 			$this -> load -> view("html/main_open");
-			$this -> load -> view("pages/index", $data);
+			$this -> load -> view("pages/{$page}", $data);
 			$this -> load -> view("html/main_close");
-			if (file_exists(APPPATH . "views/themes/{$data['theme']}/footer.php"))
-			{
-				$this -> load -> view("themes/{$data['theme']}/footer", $data);				
-			}
+			$this -> load -> view("themes/{$data['theme']}/footer", $data);				
 			$this -> load -> view("html/footer", $data);
 		}
 	}

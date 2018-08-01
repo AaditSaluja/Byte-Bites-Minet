@@ -53,4 +53,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['([A-Za-z0-9_\/]+)'] = 'pages/view/$1';
 $route['default_controller'] = 'pages/view';
-

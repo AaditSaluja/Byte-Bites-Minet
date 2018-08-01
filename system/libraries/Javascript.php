@@ -6,7 +6,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014 - 2018, British Columbia Institute of Technology
+ * Copyright (c) 2014 - 2017, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -29,7 +29,7 @@
  * @package	CodeIgniter
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2018, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2014 - 2017, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	https://codeigniter.com
  * @since	Version 1.0.0
@@ -97,7 +97,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library blur event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -113,7 +113,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library change event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -129,7 +129,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library click event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @param	bool	whether or not to return false
 	 * @return	string
@@ -146,7 +146,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library dblclick event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -162,7 +162,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library error event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -178,7 +178,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library focus event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -211,7 +211,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library keydown event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -227,7 +227,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library keydown event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -243,7 +243,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library load event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -259,7 +259,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library mousedown event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -275,7 +275,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library mouseout event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -291,7 +291,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library mouseover event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -307,7 +307,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library mouseup event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -353,7 +353,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library resize event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -369,7 +369,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library scroll event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -385,7 +385,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a javascript library unload event
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	string	The code to execute
 	 * @return	string
 	 */
@@ -673,7 +673,7 @@ class CI_Javascript {
 	 *
 	 * Outputs a <script> tag
 	 *
-	 * @param	string	The element to attach the event to
+	 * @param	string	The element to attach byte_it to
 	 * @param	bool	If a CDATA section should be added
 	 * @return	string
 	 */
