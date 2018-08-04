@@ -43,4 +43,37 @@ class Pages extends CI_Controller
 			$this -> load -> view("html/footer", $data);
 		}
 	}
+	public function signup()
+	{
+			$this->load->helper(['email', 'form', 'string', 'url']);
+			$this->load->library(['form_validation', 'session']);
+			$this->response = [];
+			$this->form_validation->set_rules([
+				[
+				"field" => "name",
+				"label" => "name",
+				"rules" => [
+					"reduce_multiple_spaces",
+					"required",
+					"min_length[3]",
+					"max_length[10]",
+				],
+			],
+			]);
+			$this->response["form_valid"] = $this->form_validation->run();
+			if ($this->response["form_valid"] == FALSE)
+			{ 
+				$this->load->view("pages/login");
+			}else{
+				redirect("/home");
+				// $data_user = array(
+				// 	"name"=> $this->input->post("name"),
+				// 	"username"=> $this->input->post("username"),
+				// 	"password"=> $this->input->post("password"),
+				// 	"email"=> $this->input->post("email"),
+				// 	"mobile"=> $this->input->post("mobile")
+				// );
+				// print_r($data_user);
+	}
+	}
 }

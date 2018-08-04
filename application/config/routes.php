@@ -50,6 +50,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 
-
+$route['pages/signup'] = 'pages/signup';
 $route['([A-Za-z0-9_\/]+)'] = 'pages/view/$1';
 $route['default_controller'] = 'pages/view';
