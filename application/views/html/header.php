@@ -7,6 +7,7 @@
 	<?= style_link_tag("THEME_".$theme); ?>
 	<?= style_link_tag("PAGE_".$page_css); ?>
 	<?= style_link_tag("SPECIAL_".$special_css); ?>
+	<?= style_link_tag("_base"); ?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--Favicon stuff begin-->

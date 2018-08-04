@@ -1,0 +1,24 @@
+@font-face{
+    font-family: "Arciform";
+    src: url("/public/fonts/arciform.otf");
+}
+@font-face{
+    font-family: "Saira";
+    src: url("/public/fonts/saira/Saira/Saira-Regular.ttf");
+}
+@font-face{
+    font-family: "Open Sans";
+    src: url("/public/fonts/open-sans/OpenSans-Regular.ttf");
+}
+@font-face{
+    font-family: "Oswald";
+    src: url("/public/fonts/oswald/Oswald-Regular.ttf");
+}
+@font-face{
+    font-family: "Roboto-mono";
+    src: url("/public/fonts/Roboto_Mono/RobotoMono-Regular.ttf");
+}
+@font-face{
+    font-family: "Roboto-slab";
+    src: url("/public/fonts/roboto-slab/RobotoSlab-Regular.ttf");
+}

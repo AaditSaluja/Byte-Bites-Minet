@@ -1,0 +1,34 @@
+@import "_fonts.css";
+
+* {
+    box-sizing: border-box;
+    transition-property: none;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  html, body {
+    margin: 0;
+  }
+  
+  #wrapper {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 1.5rem 0;
+  }
+  
+  .spaced {
+    padding: 3rem;
+  }
+@media screen and (max-width: 500px){
+    .spaced{
+        padding: 1rem;
+    }
+}
