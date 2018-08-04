@@ -18,5 +18,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700" rel="stylesheet">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<!--Favicon stuff end-->
-</head>
+
+ 	</head>
 <body class="<?=$page_css?>">
+
+

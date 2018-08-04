@@ -82,7 +82,7 @@ fieldset {
     line-height: 2rem;
     top: 0.75rem;
     font-weight: 700;
-    color: rgba(255, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 1);
   }
   .form-field .normal .status-icon .icon.success {
     line-height: 2.75rem;
