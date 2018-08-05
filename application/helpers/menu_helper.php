@@ -16,7 +16,7 @@ if (! function_exists('menu'))
 		$return = "";
 		foreach ($items as $item)
 		{
-			$return .= "<li><a href='{$item->link}' class='{$item->class}'>{$item->text}</a></li>";
+			$return .= "<a href='{$item->link}' class='{$item->class}'><span>{$item->text}</span></a>";
 		}
 		return $return;
 	}
