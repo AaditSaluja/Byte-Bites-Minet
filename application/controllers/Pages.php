@@ -65,7 +65,7 @@ class Pages extends CI_Controller
 			{ 
 				$this->view("signup");
 			}else{
-				redirect("/home");
+				redirect("/login");
 				// $data_user = array(
 				// 	"name"=> $this->input->post("name"),
 				// 	"username"=> $this->input->post("username"),
