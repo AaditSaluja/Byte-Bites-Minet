@@ -63,7 +63,7 @@ class Pages extends CI_Controller
 			$this->response["form_valid"] = $this->form_validation->run();
 			if ($this->response["form_valid"] == FALSE)
 			{ 
-				$this->load->view("pages/login");
+				$this->view("signup");
 			}else{
 				redirect("/home");
 				// $data_user = array(
