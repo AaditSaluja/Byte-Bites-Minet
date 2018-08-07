@@ -1,0 +1,85 @@
+@import "_form.css";
+body{
+    background: linear-gradient(to bottom right, #1A237E, #00AEEF) no-repeat;
+    height: 100vh;
+}
+.form{
+    
+    width: 100%;
+    margin-top: calc((100vh - 50vh) / 3);
+}
+.form > .left-div{
+    color: white;
+    width: 40vw;
+    height: 50vh;
+    float: left;
+    margin-left: 5vw;
+    padding-right: 5vw;
+    border-right: 3px rgb(255, 255, 255) solid;
+}
+.form > .right-div{
+    color: white;
+    float: right;
+    width: 40vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.form-field .normal .right input::placeholder{
+    color: white;
+}
+.caption{
+    /*width: fit-content;*/
+}
+.button-button{
+    margin-left: 0.8rem;
+    line-height: 1rem;
+    width: 35%;
+}
+.button-button > .container{
+    color: white;
+}
+.button-button:nth-child(1){
+/*    float: right;
+    width: 35%;
+    clear: none;
+    margin-top: -8vh;
+    margin-left: -15vw;
+    margin-right: 8vw;*/
+}
+.button-button:hover > .container {
+    background-color: white;
+    color: black !important;
+  }
+  *{
+    /* color: white; */
+    font-family: "Saira";
+}
+@media screen and (max-width: 500px){
+    .left-div{
+        display: none;
+    }
+    .right-div{
+        width: 80vw !important;
+        margin: 0 5vw 0 0 !important;
+    }
+    .button-button:nth-child(1){
+        margin-top: -8vh;
+        margin-left: 0;
+        margin-right: 0vw !important;
+    }
+    .caption{
+        font-size: 0.9rem;
+        padding-top: 3vh;
+        margin-left: -8vw;
+    }
+    .button-button:hover > .container {
+        background-color: rgba(0,0,0,0);
+        color: #fff !important;
+      }
+      .form{
+    
+        width: 100%;
+        margin-top: calc((100vh - 50vh) / 4);
+    }
+}

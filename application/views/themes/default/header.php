@@ -1,6 +1,7 @@
 <?= style_link_tag("_menu-add"); ?>
 <?= style_link_tag("_menu"); ?>
 <div class="container">
+	<div class="heading"><h1>somethingX</h1></div>
 			<div class="menu-wrap">
 				<nav class="menu">
 					<div class="icon-list">
@@ -13,6 +14,7 @@
 						<path d="M-1,0h101c0,0-97.833,153.603-97.833,396.167C2.167,627.579,100,800,100,800H-1V0z"/>
 					</svg>
 				</div>
+
 			</div>
 			<button class="menu-button" id="open-button"></button>
 			<div class="content-wrap">
