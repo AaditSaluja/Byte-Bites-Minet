@@ -159,6 +159,7 @@ body,
 }
 
 .icon-list a span {
+	font-family: "Saira";
 	margin-left: 10px;
 	text-transform: uppercase;
 	font-weight: 1000;

@@ -5,7 +5,13 @@
 			<div class="menu-wrap">
 				<nav class="menu">
 					<div class="icon-list">
+						<?php if($this->session->userdata("loggedin") == TRUE AND $this->session->userdata("loggedin")): ?>
+						<?=menu("menu_loggedin")?></a>
+						<?php elseif($this->session->userdata("loggedin") == NULL OR $this->session->userdata("loggedin") == FALSE): ?>
 						<?=menu("menu")?></a>
+						<?php else:?>
+						<?=menu("menu")?></a>	
+					<?php endif;?>
 					</div>
 				</nav>
 				<button class="close-button" id="close-button">Close Menu</button>

@@ -8,10 +8,10 @@
         <?=form_field(['name'=>'username', 'placeholder'=>'User-Name', 'required'=>'true', 'maxlength'=>'15', 'minlength'=>'4','icon'=>'face'])?>
         <?=form_field(['name'=>'password', 'placeholder'=>'Password', 'required'=>'true', 'maxlength'=>'20', 'minlength'=>'8', 'type'=>'password','icon'=>'security'])?>
         <?php
-                echo component("button_button", ["icon"=>"send", "text"=>"Sign-In"])
+                echo component("button_button", ["icon"=>"send", "text"=>"Login"])
             ?>
             </form>
-            <p class="caption">Don't have an account? Then <a href="#"><?php
+            <p class="caption">Don't have an account? Then <a href="/signup"><?php
                 echo component("button_button", ["text"=>"Sign-Up"])
             ?>
             </a></p>

@@ -7,6 +7,7 @@ class Pages extends CI_Controller
 	{
 		parent::__construct();
 		$this->load->helper(['html', 'menu', 'component', 'date', 'form', 'g_recaptcha', 'asset']);
+		$this->load->library("session");
 	}
 	public function view(...$page)
 	{
@@ -66,14 +67,26 @@ class Pages extends CI_Controller
 				$this->view("signup");
 			}else{
 				redirect("/login");
-				// $data_user = array(
-				// 	"name"=> $this->input->post("name"),
-				// 	"username"=> $this->input->post("username"),
-				// 	"password"=> $this->input->post("password"),
-				// 	"email"=> $this->input->post("email"),
-				// 	"mobile"=> $this->input->post("mobile")
-				// );
-				// print_r($data_user);
+				$data_user = array(
+					"name"=> $this->input->post("name"),
+					"username"=> $this->input->post("username"),
+					"password"=> $this->input->post("password"),
+					"email"=> $this->input->post("email"),
+					"mobile"=> $this->input->post("mobile")
+				);
+				print_r($data_user);
 	}
+	}
+	public function login(){
+		$this->load->helper(['email', 'form', 'string', 'url']);
+		$this->load->library("session");
+		$this->session->set_userdata("loggedin", TRUE);
+		redirect("home");
+	}
+	public function logout(){
+		$this->load->helper(['email', 'form', 'string', 'url']);
+		$this->load->library("session");
+		$this->session->set_userdata("loggedin", FALSE);
+		redirect("/home");
 	}
 }

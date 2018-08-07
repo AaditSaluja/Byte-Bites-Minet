@@ -16,8 +16,8 @@
             </form>
             <p class="caption">Already have an account? Then</p>
         
-        <a href="#"><?php
-                echo component("button_button", ["text"=>"Sign-In"])
+        <a href="/login"><?php
+                echo component("button_button", ["text"=>"Login"])
             ?>
             </a>
             
