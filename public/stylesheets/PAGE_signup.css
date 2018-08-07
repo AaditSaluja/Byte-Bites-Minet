@@ -1,6 +1,6 @@
 @import "_form.css";
 body{
-    background: linear-gradient(to bottom right, #1A237E, #00AEEF) no-repeat;
+    background: linear-gradient(to bottom right, #1A237E, #15a2fa) no-repeat;
     height: 100vh;
 }
 .form{

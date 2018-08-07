@@ -22,6 +22,7 @@ body,
 	text-align: center;
 	color: white;
 	font-family: "Arciform";
+	z-index: 1000;
 }
 .menu-wrap a {
 	color: #1A237E;
