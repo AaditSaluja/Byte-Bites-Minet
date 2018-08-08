@@ -1,3 +1,3 @@
-<div class="poll">
-    
+<div class="poll-poll">
+    Attempt The Poll/Questionnaire
 </div>

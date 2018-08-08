@@ -1,3 +1,3 @@
-<div class="suggestions">
+<div class="suggestions-suggestions">
     
 </div>

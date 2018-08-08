@@ -1,3 +1,3 @@
-<div class="upgrade">
+<div class="upgrade-upgrade">
     
 </div>

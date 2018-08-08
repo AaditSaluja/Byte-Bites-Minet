@@ -1,3 +1,10 @@
 .poll{
     background-color:#15a2fa;
 }
+.poll-poll{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(200%);
+}
