@@ -1,2 +1,3 @@
-<div class="profile">
+<div class="profile profile-head">
+Your Profile
 </div>
