@@ -1,7 +1,7 @@
 <?= style_link_tag("_menu-add"); ?>
 <?= style_link_tag("_menu"); ?>
 <div class="container">
-	<div class="heading"><h1>HIRE<sup>X</sup></h1></div>
+	<div class="heading"><h1>Hire<sup>x</sup></h1></div>
 			<div class="menu-wrap">
 				<nav class="menu">
 					<div class="icon-list">

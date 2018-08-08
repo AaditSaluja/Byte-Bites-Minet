@@ -14,13 +14,11 @@
                 echo component("button_button", ["icon"=>"send", "text"=>"Sign-Up"])
             ?>
             </form>
-            <p class="caption">Already have an account? Then</p>
-        
-        <a href="/login"><?php
+            <a href="/login"><?php
                 echo component("button_button", ["text"=>"Login"])
             ?>
             </a>
-            
+                    
         </div>
     </div>
 </section>

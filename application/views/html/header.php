@@ -12,7 +12,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="//platform.linkedin.com/in.js">
-    api_key:   81v2wai46zvipl
+    // api_key:   81v2wai46zvipl
     authorize: TRUE
 </script>
 	<!--Favicon stuff begin-->
@@ -28,7 +28,7 @@
 <body onload="linkedin()" class="<?=$page_css?>">
 	<script>
 		function linkedin() {
-			IN.User.authorize();
+			// IN.User.authorize();
 		}
 	</script>
 

@@ -5,10 +5,11 @@
     width: 100vw;
 }
 .cover-inner{
-    width: 100vw;
+	width: 100vw;
     height: 100vh;
     background: url('/public/images/Capture.PNG') no-repeat;
     z-index: 1000;
-    margin-left: calc((100vw - 100vw)/2);
-    background-size: cover;
+    margin-left: calc((100vw - 100vw) / 2);
+    background-size: contain;
+    background-position: bottom;
 }

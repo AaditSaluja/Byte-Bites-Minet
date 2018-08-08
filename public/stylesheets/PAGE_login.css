@@ -1,7 +1,11 @@
 @import "_form.css";
 body{
-    background: linear-gradient(to bottom right, #1A237E, #00AEEF) no-repeat;
+    background: #15a2fa no-repeat;
     height: 100vh;
+    overflow: hidden;
+}
+.margin{
+    margin-top: 3.5rem;
 }
 .form{
     
@@ -11,7 +15,7 @@ body{
 .form > .left-div{
     color: white;
     width: 40vw;
-    height: 50vh;
+    height: fit-content;
     float: left;
     margin-left: 5vw;
     padding-right: 5vw;
@@ -23,6 +27,7 @@ body{
     width: 40vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
+    margin-top: 2rem;
 }
 
 .form-field .normal .right input::placeholder{
@@ -34,7 +39,7 @@ body{
 .button-button{
     margin-left: 0.8rem;
     line-height: 1rem;
-    width: 35%;
+    /*width: 35%;*/
 }
 .button-button > .container{
     color: white;
@@ -55,13 +60,19 @@ body{
     /* color: white; */
     font-family: "Saira";
 }
+#linkedin{
+    margin-top: 1rem !important;
+}
 @media screen and (max-width: 500px){
+    body{
+        overflow:auto;
+    }
     .left-div{
         display: none;
     }
     .right-div{
         width: 80vw !important;
-        margin: 0 5vw 0 0 !important;
+        margin: 5vw 5vw 0 0 !important;
     }
     .button-button:nth-child(1){
         margin-top: -8vh;

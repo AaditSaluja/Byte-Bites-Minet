@@ -1,6 +1,6 @@
 @import "_form.css";
 body{
-    background: linear-gradient(to bottom right, #1A237E, #15a2fa) no-repeat;
+    background: #15a2fa no-repeat;
     height: 100vh;
 }
 .form{
@@ -38,12 +38,8 @@ body{
     color: white;
 }
 .button-button:nth-child(1){
-    float: right;
     width: 35%;
-    clear: none;
-    margin-top: -8vh;
-    margin-left: -15vw;
-    margin-right: 8vw;
+    margin-top: 1.5rem;
 }
 .button-button:hover > .container {
     background-color: white;
