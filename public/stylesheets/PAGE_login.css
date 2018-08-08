@@ -2,10 +2,6 @@
 body{
     background: #15a2fa no-repeat;
     height: 100vh;
-    overflow: hidden;
-}
-.margin{
-    margin-top: 3.5rem;
 }
 .form{
     
@@ -20,6 +16,9 @@ body{
     margin-left: 5vw;
     padding-right: 5vw;
     border-right: 3px rgb(255, 255, 255) solid;
+}
+.margin{
+    margin-top: 3.5rem;
 }
 .form > .right-div{
     color: white;
@@ -39,7 +38,7 @@ body{
 .button-button{
     margin-left: 0.8rem;
     line-height: 1rem;
-    /*width: 35%;*/
+    width: 35%;
 }
 .button-button > .container{
     color: white;
@@ -60,19 +59,13 @@ body{
     /* color: white; */
     font-family: "Saira";
 }
-#linkedin{
-    margin-top: 1rem !important;
-}
 @media screen and (max-width: 500px){
-    body{
-        overflow:auto;
-    }
     .left-div{
         display: none;
     }
     .right-div{
         width: 80vw !important;
-        margin: 5vw 5vw 0 0 !important;
+        margin: 0 5vw 0 0 !important;
     }
     .button-button:nth-child(1){
         margin-top: -8vh;

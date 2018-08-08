@@ -24,7 +24,7 @@ class Pages extends CI_Controller
 			{
 				$data = parse_ini_file($ini_file);
 			}
-			$data['title'] = ((!isset($data['title']))?(ucfirst($page)):($data['title'])) . " | ChoreX";
+			$data['title'] = ((!isset($data['title']))?(ucfirst($page)):($data['title'])) . " | HireX";
 			$data['theme'] = (!isset($data['theme']))?("default"):($data['theme']);
 
 			$data['page'] = $page;

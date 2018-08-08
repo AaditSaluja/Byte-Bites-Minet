@@ -5,4 +5,5 @@
 			<i class="material-icons icon"><?=$icon?></i>
 		</div><?php endif; ?><div class="text"><?=$text?></div>
 	</div>
+	
 </button>

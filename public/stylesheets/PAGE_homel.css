@@ -1,0 +1,17 @@
+@import "_button_button.css";
+.home-cover{
+    background-color:#15a2fa;
+    height: 150vh;
+    width: 100vw;
+}
+.cover-inner{
+    width: 100vw;
+    height: 100vh;
+    background: url('/public/images/Capture.PNG') no-repeat;
+    z-index: 1000;
+    margin-left: calc((100vw - 100vw)/2);
+    background-size: cover;
+}
+/* I started Here */
+
+/* I end here*/
