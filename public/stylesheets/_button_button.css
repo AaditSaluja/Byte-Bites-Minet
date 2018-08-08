@@ -4,6 +4,7 @@
     border: 0;
     background-color: transparent;
     cursor: pointer;
+    font-family: "Saira";
   }
   .button-button .container {
     transition-property: box-shadow, background-color, color;
@@ -11,7 +12,7 @@
     overflow: hidden;
     height: 100%;
     border: solid 0.125rem white;
-    color: #3F51B5;
+    color: white;
   }
   .button-button .container > * {
     display: inline-block;
@@ -45,7 +46,6 @@
     background-color: white;
     color: black;
   }
-
   @media screen and (max-width: 550px) {
     .button-button {
       margin-left: calc((100% - 188px) / 2);
