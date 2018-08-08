@@ -38,7 +38,7 @@ body{
 .button-button{
     margin-left: 0.8rem;
     line-height: 1rem;
-    width: 35%;
+    /* width: 35%; */
 }
 .button-button > .container{
     color: white;

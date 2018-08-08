@@ -14,7 +14,7 @@
                 echo component("button_button", ["icon"=>"link","text"=>"Sign-Up"])
             ?>  </a>          <br>
             <?php
-                echo component("button_button", ["icon"=>"person_outline", "text"=>"Login With Linkedin", "id"=>"linkedin" ,"style"=>"margin-top:1.5rem;"])
+                echo component("button_button", ["icon"=>"person_outline","text"=>"Login With Linkedin", "id"=>"linkedin" ,"style"=>"margin-top:1.5rem;"])
             ?>
                </div>
 

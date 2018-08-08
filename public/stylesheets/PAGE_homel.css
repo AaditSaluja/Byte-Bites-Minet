@@ -1,7 +1,7 @@
 @import "_button_button.css";
 .home-cover{
     background-color:#15a2fa;
-    height: 150vh;
+    height: 200vh;
     width: 100vw;
 }
 .cover-inner{
@@ -9,9 +9,32 @@
     height: 100vh;
     background: url('/public/images/Capture.PNG') no-repeat;
     z-index: 1000;
-    margin-left: calc((100vw - 100vw)/2);
-    background-size: cover;
+    margin-left: calc((100vw - 100vw) / 2);
+    background-size: contain;
+    background-position: bottom;
 }
 /* I started Here */
-
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 2vh;
+    margin: 10vh 10vw;
+}
+.gr{
+    background-color: white;
+    display: inline-grid;
+    height: 20vh;
+    transition: all 0.4s;
+    width: 100%;
+    color: #000;
+}
+.gr1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.gr:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: beige;
+}
 /* I end here*/

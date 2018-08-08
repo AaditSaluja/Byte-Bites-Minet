@@ -45,7 +45,7 @@
     background-color: white;
     color: black;
   }
-  
+
   @media screen and (max-width: 550px) {
     .button-button {
       margin-left: calc((100% - 188px) / 2);

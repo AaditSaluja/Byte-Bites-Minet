@@ -9,7 +9,7 @@
 
 
 
-    	<button class="btn" type="button"><span>Sign<b> Up </span></button></div>
+    	<a href="/signup"><button class="btn" type="button"><span>Sign<b> Up </span></button></div></a>
 <!-- I started Here -->
 
     		<div id="faltutext">

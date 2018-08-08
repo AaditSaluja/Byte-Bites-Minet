@@ -81,7 +81,7 @@ class Pages extends CI_Controller
 		$this->load->helper(['email', 'form', 'string', 'url']);
 		$this->load->library("session");
 		$this->session->set_userdata("loggedin", TRUE);
-		redirect("home");
+		redirect("homel");
 	}
 	public function logout(){
 		$this->load->helper(['email', 'form', 'string', 'url']);
