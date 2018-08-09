@@ -89,14 +89,14 @@ class Pages extends CI_Controller
 					"reduce_multiple_spaces",
 					"required",
 					"min_length[3]",
-					"max_length[10]",
+					"max_length[255]",
 				],
 			],
 			]);
 			$this->response["form_valid"] = $this->form_validation->run();
 			if ($this->response["form_valid"] == FALSE)
 			{ 
-				// $this->view("login");
+				$this->view("login");
 			}else{
 				$this->session->set_userdata("loggedin", TRUE);
 		        redirect("homel");

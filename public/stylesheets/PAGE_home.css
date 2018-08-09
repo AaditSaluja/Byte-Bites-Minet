@@ -97,3 +97,20 @@
 	
 }
 /* I end here*/
+@media screen and (max-width: 500px){
+  .signup-button > a > button{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+  }
+  .cover-inner{
+    height: 60vh;
+  }
+  #ft1{
+    display: none;
+  }
+  #ft2{
+    position: absolute;
+    top: 5rem;
+  }
+}
