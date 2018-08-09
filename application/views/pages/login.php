@@ -11,10 +11,10 @@
                 echo component("button_button", ["icon"=>"send", "text"=>"Login","type"=>"submit"])
             ?></div></form>
                        <a href="/signup"><?php
-                echo component("button_button", ["icon"=>"link","text"=>"Sign-Up"])
+                echo component("button_button", ["icon"=>"link","text"=>"Sign-Up", "style"=>"margin-top:1rem;"])
             ?>  </a>          <br>
             <?php
-                echo component("button_button", ["icon"=>"person_outline","text"=>"Login With Linkedin", "id"=>"linkedin" ,"style"=>"margin-top:1.5rem;","onclick"=>"linkedin()"])
+                echo component("button_button", ["icon"=>"person_outline","text"=>"Login With Linkedin", "id"=>"linkedin" ,"style"=>"margin-top:1rem;","onclick"=>"linkedin()"])
             ?>
                
 

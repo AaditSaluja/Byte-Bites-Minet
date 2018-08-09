@@ -14,15 +14,29 @@
         <?php
                 echo component("button_button", ["icon"=>"send", "text"=>"Sign-Up"])
             ?>
-            <?php
-                echo component("button_button", ["icon"=>"person_outline", "text"=>"Login With Linkedin", "id"=>"linkedin" ,"style"=>"margin-top:1.5rem;"])
-            ?>
-            </form>
+            
+        </form>
+            
             <a href="/login">
             <?php
-                echo component("button_button", ["text"=>"Login"])
+                echo component("button_button", ["icon"=>"send", "text"=>"Login", "id"=>"login" ,"style"=>"margin-top:1.5rem;"])
             ?>
             </a>
+           
+            <?php
+                echo component("button_button", ["icon"=>"person_outline","text"=>"Login With Linkedin", "id"=>"linkedin" ,"style"=>"margin-top:1.5rem;","onclick"=>"linkedin()"])
+            ?>
+            
         </div>
     </div>
 </section>
+<script>
+        function linkedin() {
+            alert("hello");
+            IN.User.authorize(redirect);
+        }
+        function redirect(){
+            window.location.assign("/homel");
+            <?=$this->session->set_userdata("loggedin", TRUE);?>
+        }
+    </script>
