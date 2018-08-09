@@ -16,9 +16,9 @@
     authorize: TRUE
 </script>
 	<!--Favicon stuff begin-->
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="icon" type="image/png" sizes="16x16" href="/public/images/favicon-.png">
+<!-- 	<link rel="shortcut icon" href="/public/images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="/public/images/favicon.png" type="image/x-icon"> -->
+	<link rel="icon" type="image/png" sizes="16x16" href="/public/images/favicon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700" rel="stylesheet">
 	<meta name="msapplication-TileColor" content="#da532c">
