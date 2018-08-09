@@ -1,13 +1,13 @@
 @import "_button_button.css";
 .home-cover{
-    background-color:#15a2fa;
-    height: 200vh;
+    background-color:#15a2fa !important;
+    height: 235vh;
     width: 100vw;
 }
 .cover-inner{
     width: 100vw;
     height: 100vh;
-    background: url('/public/images/Capture.PNG') no-repeat;
+    background: url('/public/images/bohotcool.png') no-repeat;
     z-index: 1000;
     margin-left: calc((100vw - 100vw) / 2);
     background-size: contain;
@@ -27,7 +27,11 @@
     height: 20vh;
     transition: all 0.4s;
     width: 100%;
-    color: #000;
+    color: #15a2fa ;
+    text-align: center;
+    vertical-align: middle;
+
+
 }
 .gr1{
     grid-row: 1/2;
@@ -38,3 +42,36 @@
     color: beige;
 }
 /* I end here*/
+.badatext {
+
+  font-family: segoe ui;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  
+}
+.home-grid  i {
+  font-size: 50px;
+    top: 10%;
+  position: relative;
+
+
+
+
+}
+
+.home-grid h1 {
+
+  font-family: segoe ui;
+  font-weight: lighter;
+}
+
+.border {
+
+  border-bottom: solid white;
+  width: 400px;
+  position: relative;
+  left: 480px;
+  bottom: 20px;
+}
