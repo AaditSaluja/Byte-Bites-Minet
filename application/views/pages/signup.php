@@ -32,7 +32,6 @@
 </section>
 <script>
         function linkedin() {
-            alert("hello");
             IN.User.authorize(redirect);
         }
         function redirect(){

@@ -7,6 +7,9 @@
 		}
 	?>">
 	<div class="normal textarea">
+		<div class="left">
+			<i class="icon material-icons"><?=$icon?></i>
+		</div>
 		<div class="right">
 			<?php
 				$options = compact('name', 'value', 'placeholder', 'rows', 'minlength', 'maxlength');
